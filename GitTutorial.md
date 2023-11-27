@@ -53,3 +53,12 @@
         1. close git log pager: q
         2. in one line format: git log --pretty=oneline
         3. in graph format: git log --graph
+
+8. see changes
+    1. commit: git diff commit_id
+
+9. change message of a commit:
+    1. git rebase --interactive commit_hash~
+    2. set pick to edit
+    3. git commit --amend -m "message"
+    4. git rebase --continue
