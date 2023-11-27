@@ -62,3 +62,9 @@
     2. set pick to edit
     3. git commit --amend -m "message"
     4. git rebase --continue
+
+10. connect to a remote repository
+    1. create repository in github.com
+    2. first connect: git remote add origin url
+    3. change remote address: git remote set-url origin url
+    4. git push -u origin master
