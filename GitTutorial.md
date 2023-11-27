@@ -33,8 +33,10 @@
         1. back on specific commit: git checkput commit-hash
         2. back to previous commit: git checkout HEAD~1
         3. back to previous of first commit: rm -rf .git
-
-
+    3. remove a file from 
+        1. git repostiry: git rm -f name
+        2. system drive to: git rm -rf name
+        
 
 5. set user identify for git
     1. git config --global user.name "name"
@@ -48,9 +50,6 @@
 7. see properties
     1. stage of files: git status
     2. commit properties: git log
-
-8. 
-
-
-
-    
+        1. close git log pager: q
+        2. in one line format: git log --pretty=oneline
+        3. in graph format: git log --graph
